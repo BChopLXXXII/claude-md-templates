@@ -6,7 +6,7 @@
 
 - [MONOREPO_TOOL] (Turborepo / Nx / Lerna)
 - [PACKAGE_MANAGER] (pnpm / npm workspaces / yarn)
-- TypeScript 5.7
+- TypeScript 5.9
 - [SHARED_TOOLING] (ESLint, Prettier, tsconfig)
 
 ## Commands

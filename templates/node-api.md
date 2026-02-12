@@ -4,8 +4,8 @@
 
 ## Stack
 
-- Node.js 22 LTS
-- TypeScript 5.7
+- Node.js 24 LTS
+- TypeScript 5.9
 - [FRAMEWORK] (Express / Fastify / Hono)
 - [DATABASE] (PostgreSQL / MongoDB / SQLite)
 - [ORM] (Prisma / Drizzle / Mongoose)

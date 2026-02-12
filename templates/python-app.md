@@ -177,7 +177,7 @@ async def test_create_user(client):
 # pyproject.toml
 [project]
 dependencies = [
-    "fastapi>=0.115",
+    "fastapi>=0.129",
     "uvicorn[standard]",
 ]
 

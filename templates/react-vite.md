@@ -4,10 +4,10 @@
 
 ## Stack
 
-- React 19
-- Vite 6.0
-- TypeScript 5.7
-- Tailwind CSS 4.0
+- React 19.2
+- Vite 7.3
+- TypeScript 5.9
+- Tailwind CSS 4.1
 - React Router 7 (or TanStack Router)
 - [STATE_MANAGEMENT] (e.g., Zustand, Jotai, TanStack Query)
 - [BUILD_TARGET] (e.g., Vercel, Netlify, Cloudflare Pages)

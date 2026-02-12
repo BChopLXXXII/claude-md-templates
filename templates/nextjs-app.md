@@ -4,10 +4,10 @@
 
 ## Stack
 
-- Next.js 15.2 (App Router, Server Components)
-- TypeScript 5.7 (strict mode)
-- React 19
-- Tailwind CSS 4.0
+- Next.js 16.1 (App Router, Server Components)
+- TypeScript 5.9 (strict mode)
+- React 19.2
+- Tailwind CSS 4.1
 - [AUTH_PROVIDER] (e.g., NextAuth, Clerk, Supabase Auth)
 - [DATABASE] (e.g., Supabase, Planetscale, Prisma + Postgres)
 - [HOSTING] (e.g., Vercel, Cloudflare)
