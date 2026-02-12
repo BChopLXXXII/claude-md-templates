@@ -86,6 +86,10 @@ src/
 3. **Update it** — when you make a decision, add it to CLAUDE.md
 4. **Folder-level context** — for large projects, you can create local context files in subdirectories (e.g., `docs/CONTEXT.md`). Just tell Claude to "check the context file in this folder" when working there
 
+## See Also
+
+**Want simpler, beginner-friendly templates?** Check out [vibe-coder-rules](https://github.com/BChopLXXXII/vibe-coder-rules) — under 100 lines, heavily commented, includes .cursorrules for Cursor IDE.
+
 ## License
 
 MIT. Do whatever you want with these.
