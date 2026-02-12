@@ -84,7 +84,7 @@ src/
 1. **Start minimal** — add sections when Claude gets confused
 2. **Be specific** — "use shadcn/ui" beats "use a component library"
 3. **Update it** — when you make a decision, add it to CLAUDE.md
-4. **Folder-level files** — use `CLAUDE.local.md` in subdirectories for specific context
+4. **Folder-level context** — for large projects, you can create local context files in subdirectories (e.g., `docs/CONTEXT.md`). Just tell Claude to "check the context file in this folder" when working there
 
 ## License
 
