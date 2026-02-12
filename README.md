@@ -86,10 +86,6 @@ src/
 3. **Update it** — when you make a decision, add it to CLAUDE.md
 4. **Folder-level files** — use `CLAUDE.local.md` in subdirectories for specific context
 
-## Contributing
-
-Found a useful pattern? Open a PR with your template improvements.
-
 ## License
 
 MIT. Do whatever you want with these.
