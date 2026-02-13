@@ -28,7 +28,14 @@ Skip manual copy/paste:
 ./scripts/scaffold-claude.sh --template react-vite
 ```
 
-This creates `./CLAUDE.md` in your current directory. Use `--output` to pick a custom path.
+Windows PowerShell:
+
+```powershell
+./scripts/scaffold-claude.ps1 -List
+./scripts/scaffold-claude.ps1 -Template react-vite
+```
+
+This creates `./CLAUDE.md` in your current directory. Use `--output` / `-Output` to pick a custom path.
 
 ## Templates
 
@@ -105,7 +112,13 @@ Run this before shipping template updates:
 ./scripts/check-versions.sh
 ```
 
-It compares common stack versions in `README.md` and core templates against current npm releases.
+Windows PowerShell:
+
+```powershell
+./scripts/check-versions.ps1
+```
+
+These compare common stack versions in `README.md` and core templates against current npm releases.
 
 ## See Also
 
