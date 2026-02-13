@@ -19,6 +19,17 @@ A good CLAUDE.md file fixes all of this. Claude reads it automatically at the st
 3. Fill in the `[PLACEHOLDERS]`
 4. Start coding
 
+### Optional: Use the scaffold script
+
+Skip manual copy/paste:
+
+```bash
+./scripts/scaffold-claude.sh --list
+./scripts/scaffold-claude.sh --template react-vite
+```
+
+This creates `./CLAUDE.md` in your current directory. Use `--output` to pick a custom path.
+
 ## Templates
 
 | Template | Use Case |
