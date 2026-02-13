@@ -23,7 +23,7 @@ A good CLAUDE.md file fixes all of this. Claude reads it automatically at the st
 
 | Template | Use Case |
 |----------|----------|
-| [`nextjs-app.md`](./templates/nextjs-app.md) | Next.js 15+ apps with App Router |
+| [`nextjs-app.md`](./templates/nextjs-app.md) | Next.js 16+ apps with App Router |
 | [`react-vite.md`](./templates/react-vite.md) | React + Vite SPAs |
 | [`node-api.md`](./templates/node-api.md) | Node.js/Express backends |
 | [`cli-tool.md`](./templates/cli-tool.md) | Command-line tools |
@@ -55,9 +55,9 @@ A good CLAUDE.md file fixes all of this. Claude reads it automatically at the st
 [One sentence: what this does and who it's for]
 
 ## Stack
-- Next.js 15.2 (App Router)
-- TypeScript 5.7
-- Tailwind CSS 4.0
+- Next.js 16.1 (App Router)
+- TypeScript 5.9
+- Tailwind CSS 4.1
 - Supabase (auth + database)
 
 ## Commands
@@ -85,6 +85,16 @@ src/
 2. **Be specific** — "use shadcn/ui" beats "use a component library"
 3. **Update it** — when you make a decision, add it to CLAUDE.md
 4. **Folder-level context** — for large projects, you can create local context files in subdirectories (e.g., `docs/CONTEXT.md`). Just tell Claude to "check the context file in this folder" when working there
+
+## Version Safety Check
+
+Run this before shipping template updates:
+
+```bash
+./scripts/check-versions.sh
+```
+
+It compares common stack versions in `README.md` and core templates against current npm releases.
 
 ## See Also
 
